@@ -1,0 +1,38 @@
+body {
+    background-image: url('../img/Monte-Everest-excursión.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.text {
+    margin: 0 4rem;
+    &__main {
+        color: $primary-color;
+        -webkit-text-stroke: 0.5px $neutral-color; //darle borde a las letras
+        font-family: $font-secondary;
+        font-size: 120px;
+    }
+    &__section {
+        width: 60%;
+        text-align: justify;
+        color: $neutral-color;
+    }
+}
+
+.main-button {
+    display: inline-flex;
+    margin: 2rem 4rem;
+}
+
+.info {
+    margin: 0 4rem;
+    font-family: $font-primary;
+    color: $primary-color;
+    -webkit-text-stroke: 0.4px $neutral-color;
+    &__link {
+        color: $primary-color;
+        text-decoration-color: $secondary-color;
+        -webkit-text-stroke: 0.4px $neutral-color;
+    }
+}

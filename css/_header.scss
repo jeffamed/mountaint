@@ -1,0 +1,32 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    &__container {
+        display: inline-flex;
+    }
+    &__img {
+        width: 80px;
+        height: 80px;
+    }
+    &__submenu {
+        display: inline-flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    &__item {
+        list-style: none;
+        padding: 0 1.5rem;
+    }
+    &__link {
+        color: $primary-color;
+        font-family: $font-primary;
+        text-decoration: none;
+        &:hover {
+            color: $secondary-color;
+        }
+    }
+    &__join {
+        margin: 1rem;
+    }
+}

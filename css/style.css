@@ -1,0 +1,152 @@
+@charset "UTF-8";
+@font-face {
+  font-family: "Komu A";
+  src: url("//db.onlinewebfonts.com/t/7b50cc294a705c6968947e1786ae546a.eot");
+  src: url("//db.onlinewebfonts.com/t/7b50cc294a705c6968947e1786ae546a.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/7b50cc294a705c6968947e1786ae546a.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/7b50cc294a705c6968947e1786ae546a.woff") format("woff"), url("//db.onlinewebfonts.com/t/7b50cc294a705c6968947e1786ae546a.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/7b50cc294a705c6968947e1786ae546a.svg#Komu A") format("svg");
+}
+
+@font-face {
+  font-family: 'WorkSans-Black';
+  src: url("../font/WorkSans-Black.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+
+.mt-0 {
+  margin-top: 0px;
+}
+
+.mb-0 {
+  margin-bottom: 0px;
+}
+
+.btn {
+  padding: 0.8rem 2rem;
+  border: 0;
+  border-radius: 0.1rem;
+}
+
+.btn-primary {
+  font-family: "WorkSans-Black";
+  color: #ffffff;
+  background-color: #ff7300;
+  text-decoration: none;
+}
+
+.btn-secondary {
+  font-family: "WorkSans-Black";
+  color: #ffffff;
+  -webkit-text-stroke: 0.4px #1A2535;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+.btn-secondary > i {
+  -webkit-text-stroke: 0px #1A2535;
+}
+
+.icono {
+  color: #ffffff;
+}
+
+.icono2 {
+  color: #ff7300;
+}
+
+.header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.header__container {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+}
+
+.header__img {
+  width: 80px;
+  height: 80px;
+}
+
+.header__submenu {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+}
+
+.header__item {
+  list-style: none;
+  padding: 0 1.5rem;
+}
+
+.header__link {
+  color: #ffffff;
+  font-family: "WorkSans-Black";
+  text-decoration: none;
+}
+
+.header__link:hover {
+  color: #ff7300;
+}
+
+.header__join {
+  margin: 1rem;
+}
+
+body {
+  background-image: url("../img/Monte-Everest-excursión.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.text {
+  margin: 0 4rem;
+}
+
+.text__main {
+  color: #ffffff;
+  -webkit-text-stroke: 0.5px #1A2535;
+  font-family: "Komu A";
+  font-size: 120px;
+}
+
+.text__section {
+  width: 60%;
+  text-align: justify;
+  color: #1A2535;
+}
+
+.main-button {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  margin: 2rem 4rem;
+}
+
+.info {
+  margin: 0 4rem;
+  font-family: "WorkSans-Black";
+  color: #ffffff;
+  -webkit-text-stroke: 0.4px #1A2535;
+}
+
+.info__link {
+  color: #ffffff;
+  -webkit-text-decoration-color: #ff7300;
+          text-decoration-color: #ff7300;
+  -webkit-text-stroke: 0.4px #1A2535;
+}
+/*# sourceMappingURL=style.css.map */

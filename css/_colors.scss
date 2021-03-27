@@ -1,0 +1,55 @@
+@font-face {
+    font-family: "Komu A";
+    src: url("//db.onlinewebfonts.com/t/7b50cc294a705c6968947e1786ae546a.eot");
+    src: url("//db.onlinewebfonts.com/t/7b50cc294a705c6968947e1786ae546a.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/7b50cc294a705c6968947e1786ae546a.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/7b50cc294a705c6968947e1786ae546a.woff") format("woff"), url("//db.onlinewebfonts.com/t/7b50cc294a705c6968947e1786ae546a.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/7b50cc294a705c6968947e1786ae546a.svg#Komu A") format("svg");
+}
+
+@font-face {
+    font-family: 'WorkSans-Black';
+    src: url('../font/WorkSans-Black.ttf') format('truetype');
+    font-style: normal;
+    font-weight: normal;
+}
+
+$primary-color: #ffffff;
+$secondary-color: #ff7300;
+$neutral-color: #1A2535;
+$font-primary: 'WorkSans-Black';
+$font-secondary: 'Komu A';
+.mt-0 {
+    margin-top: 0px;
+}
+
+.mb-0 {
+    margin-bottom: 0px;
+}
+
+.btn {
+    padding: 0.8rem 2rem;
+    border: 0;
+    border-radius: 0.1rem;
+    &-primary {
+        font-family: $font-primary;
+        color: $primary-color;
+        background-color: $secondary-color;
+        text-decoration: none;
+    }
+    &-secondary {
+        font-family: $font-primary;
+        color: $primary-color;
+        -webkit-text-stroke: 0.4px $neutral-color;
+        background-color: transparent;
+        text-decoration: none;
+        &>i {
+            -webkit-text-stroke: 0px $neutral-color;
+        }
+    }
+}
+
+.icono {
+    color: $primary-color;
+}
+
+.icono2 {
+    color: $secondary-color;
+}
